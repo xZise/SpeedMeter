@@ -1,0 +1,8 @@
+# Additional units (m/s is the build in unit)
+# Format: <name>␣<factor>
+# The factor multiplied by the unit has to result in meter per seconds.
+# For example 1 km/h * 3.6 = 1 m/s
+# Text after a sharp or second space will be ignored.
+km/h 3.6
+mph 2.237
+kn 1.944

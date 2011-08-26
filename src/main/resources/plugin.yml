@@ -1,0 +1,13 @@
+name: SpeedMeter
+main: de.xzise.bukkit.speedmeter.SpeedMeter
+version: 0.2.0
+authors:
+  - xZise
+description: >
+             Provide speed informations via normal chat.
+commands:
+  speedmeter:
+    aliases: [speed, sm]
+    description: Provide speed informations via normal chat.
+    usage: |
+           /sm [delta] [unit] | Starts speedmeter, with delta (50 ms steps) and unit (m/s, km/h, mph, kn)
